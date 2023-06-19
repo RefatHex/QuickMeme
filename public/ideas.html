@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Get best rendom meme from raddit" />
+    <meta property="og:title" content="QuickMeme" />
+    <meta property="og:type" content=" Meme website" />
+    <meta property="og:image" content="images/banner.png " />
+    <title>Random tech meme</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav collapsible">
+        <a class="nav__brand" href="/"
+          ><img src="../images/logo.svg" alt=""
+        /></a>
+        <svg class="icon icon--white nav__toggler">
+          <use href="../images/menu.svg"></use>
+        </svg>
+        <ul class="list nav__list collapsible__content collapsible--expanded">
+          <li class="nav__item"><a href="/index.html">Wholesome</a></li>
+          <li class="nav__item"><a href="/public/sadMeme.html">Sadness</a></li>
+          <li class="nav__item"><a href="/public/techmeme.html">IT Meme</a></li>
+          <li class="nav__item"><a href="/public/quotes.html">Quotes</a></li>
+          <li class="nav__item">
+            <a href="/public/ideas.html">ideas</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="meme--generator" title="dankmemes">
+      <button class="generate__meme_btn">Generate meme</button>
+      <h2 class="meme__title">Loading..</h2>
+      <img class="image__container" src="" alt="" />
+      <div class="meme--author"></div>
+    </div>
+  </body>
+  <script src="../index.js"></script>
+</html>
