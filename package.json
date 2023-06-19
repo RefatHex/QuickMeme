@@ -1,0 +1,17 @@
+{
+  "name": "quickmeme",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cssnano": "^6.0.1",
+    "parcel-bundler": "^1.12.5",
+    "postcss": "^8.4.24"
+  }
+}
