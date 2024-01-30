@@ -11,10 +11,19 @@ We welcome pull requests if you want to contribute to Random Meme Generator! You
 ## Live site
 https://quickmeme.netlify.app/
 
-Fork the repository
-Create a new branch for your feature or bug fix: git checkout -b my-feature-branch
-Make your changes and commit them: git commit -am 'Add some feature'
-Push your changes to your fork: git push origin my-feature-branch
+## Fork the repository
+Create a new branch for your feature or bug fix: 
+
+git checkout -b my-feature-branch
+
+Make your changes and commit them:
+
+git commit -am 'Add some feature'
+
+Push your changes to your fork:
+
+git push origin my-feature-branch
+
 Create a pull request on GitHub
 
 ## Roadmap
