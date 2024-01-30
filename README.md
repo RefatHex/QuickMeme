@@ -8,8 +8,8 @@ Choose from 4 different meme categories
 ## Contributing
 We welcome pull requests if you want to contribute to Random Meme Generator! You can also contact us if you have any suggestions or feedback.
 
-## To contribute
-follow these steps:
+## Live site
+https://quickmeme.netlify.app/
 
 Fork the repository
 Create a new branch for your feature or bug fix: git checkout -b my-feature-branch
